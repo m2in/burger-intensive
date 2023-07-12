@@ -1,0 +1,149 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather-Black.ttf");
+}
+
+body {
+  background-color: #191411;
+  font-family: "Gilroy", sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.button {
+  border-radius: 8px;
+  background: linear-gradient(135deg, #da8023 0%, #e2b438 100%);
+  width: 260px;
+  height: 62px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  font-size: 18px;
+  color: #191411;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #ac6115 0%, #9e7a19 100%);
+}
+
+.main {
+  overflow: hidden;
+  background-image: url("../img/main_bg.png");
+  background-position: top center;
+}
+
+.header {
+  padding: 40px 0;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  margin-left: 191px;
+}
+
+.menu_list {
+  list-style: none;
+  display: flex;
+}
+
+.menu_item {
+  margin-right: 88px;
+}
+
+.menu_item a {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.menu_item a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+.currency {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 6px;
+  text-align: center;
+  cursor: pointer;
+  line-height: 32px;
+  margin-left: auto;
+  user-select: none;
+}
+
+.main-content {
+  padding-top: 103px;
+  padding-bottom: 199px;
+}
+
+.main-content .container {
+  position: relative;
+}
+
+.main-info {
+  max-width: 608px;
+}
+
+.main_small_info {
+  border-radius: 100px;
+  background: #d3320f;
+  padding: 12px 16px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.main-title {
+  font-family: "Merriweather", sans-serif;
+  font-size: 120px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+}
+
+.main-text {
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 56px;
+}
+
+.main-img {
+  position: absolute;
+  top: -123px;
+  left: calc(100% - 991px);
+}
