@@ -128,6 +128,8 @@ body {
 
 .main-info {
   max-width: 608px;
+  position: relative;
+  z-index: 100;
 }
 
 .main_small_info {
@@ -157,6 +159,7 @@ body {
   position: absolute;
   top: -123px;
   left: calc(100% - 991px);
+  z-index: 10;
 }
 
 .why {
